@@ -1,0 +1,30 @@
+{
+    "users": [
+        {
+            "userName": "",
+            "password": ""
+        }
+    ],
+    "books": [
+        {
+            "id": "1",
+            "name": "book1"
+        },
+        {
+            "id": "2",
+            "name": "book2"
+        },
+        {
+            "id": "3",
+            "name": "edit book"
+        },
+        {
+            "id": "4",
+            "name": "book4"
+        },
+        {
+            "id": "5",
+            "name": "book5"
+        }
+    ]
+}
