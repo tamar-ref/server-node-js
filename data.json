@@ -1,8 +1,8 @@
 {
     "users": [
         {
-            "userName": "",
-            "password": ""
+            "userName": "user",
+            "password": "password"
         }
     ],
     "books": [
@@ -16,7 +16,7 @@
         },
         {
             "id": "3",
-            "name": "edit book"
+            "name": "book3"
         },
         {
             "id": "4",

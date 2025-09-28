@@ -1,13 +1,15 @@
 const express = require('express');
+const cors = require('cors');
 const bookRouter = require('./bookRouter')
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.use('/books', bookRouter)
 
 app.get('/', (req, res) => {
-    res.send("hello");
+    res.send("hello!");
 })
 
 const PORT = 3000;
