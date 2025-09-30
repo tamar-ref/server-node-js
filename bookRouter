@@ -1,9 +1,0 @@
-const express = require('express');
-const books = require('./data.json').books
-const router = express.Router();
-
-router.get('/', (req, res) => {
-    res.send(books)
-})
-
-module.exports = router;
